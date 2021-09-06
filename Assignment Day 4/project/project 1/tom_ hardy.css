@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navigation */
+.navigation{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    height: 60px;
+    /* background-color: red; */
+    justify-content: space-between;
+    display: flex;
+}
+/* logo */
+.logo{
+    width: 15%;
+    height: 60px;
+    /* background-color: yellow; */
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+/* navbar */
+.nav{
+    height: 60px;
+    width: 40%;
+    /* background-color: yellow; */
+    
+}
+.nav-links{
+    display: flex;
+
+}
+.navlink{
+    list-style-type: none;
+    height: 60px;
+    width: 30%;
+    /* background-color: red; */
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    font-family: fantasy;
+    color: grey;
+}
+.navlink:hover{
+    background-color:white;
+    /* text-decoration: underline; */
+    /* border-bottom: 4px solid black; */
+    color: black;
+}
+/* banner */
+.banner{
+    height: 700px;
+    width: 100%;
+    background-color: blue;
+    background-image: url(https://wallpaperaccess.com/full/144755.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.bannersection{
+    height: 200px;
+    width: 40%;
+    /* background-color: white; */
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.btn{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-bottom: 5px solid white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: red;
+    border-color:  white;
+}
+.films{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filmcontainer{
+    /* height: 50px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title{
+    font-size: 40px;
+}
+/* card */
+.filmcard{
+    width: 23%;
+    height: 400px;
+    background-color: yellow;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+
+}
+.filmdetail{
+    height: 225px;
+    width: 100%;
+    transition: 0.4s;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+.filmdetail:hover{
+    height: 400px;
+
+}
+.filmtitle{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.padd{
+    padding: 20px;
+}
+.card1{
+    background-image: url(legrnd.jpg);
+    background-image: url('https://i.pinimg.com/originals/d9/86/b0/d986b00ecfeb4e8af7b3eb06640a9833.jpg');
+    /* background-size: cover; */
+    /* background-position: center; */
+}
+
+ .card5{
+    margin-top: 15px;
+    
+} 
+.card2{
+    background-image: url(inception.jpg);
+}
+.card3{
+    background-image: url('https://i.pinimg.com/736x/0a/60/94/0a609461ee8815d563f0d2bdc310dd0a--movie-titles-the-movie.jpg');
+}
+.card4{
+    background-image: url('http://www.denofgeek.com/wp-content/uploads/2020/02/thedarkknightrises1.jpg');
+;
+}
+.card5{
+    background-image: url('https://ae01.alicdn.com/kf/H942f5e879af04853ba51096ec35f255f2/Hot-Classic-Mad-Max-Fury-Road-Immortan-Joe-Movie-Silk-Fabric-Wall-Poster-Art-Decor-Sticker.jpg_Q90.jpg_.webp');
+}
+.Aboutme{
+    height: 500px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img{
+    height: 250px;
+    /* margin-bottom: 15px; */
+    width: 25%;
+    background-color: yellow;
+    background-image: url(https://pbs.twimg.com/profile_images/757629484463820800/XCgZ56hW_400x400.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.par{
+    height: 150px;
+    width: 28%;
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 50px;
+}
+p a{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn2{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    color: black;
+    border-bottom: 5px solid white;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: white;
+    border-color: black;
+}
+a{
+    color: none;
+}
